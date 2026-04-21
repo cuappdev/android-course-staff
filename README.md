@@ -24,7 +24,9 @@
 - Watch the attached video for what the A2 soln should look like!
 
 ### Demo Video
-<video src="./a2-soln-demo.mp4" controls width="420"></video>
+https://github.com/user-attachments/assets/0248cae2-d378-4435-b073-a1de0766a3f8
+
+
 
 ### Rubric
 
@@ -100,7 +102,8 @@ MainScreen.kt (5pts)
 - We don't expect anyone to have trouble not launching their app actually through `MainActivity.kt` this time around.
 
 ### Demo Video
-<video src="./a3-soln-demo.mp4" controls width="420"></video>
+https://github.com/user-attachments/assets/c182db25-001c-4a69-9b89-d06facb49d3f
+
 
 ### Rubric
 
@@ -145,16 +148,16 @@ General
 WalletRow.kt (3pts)
 * [-1] (-1 per offense) Missing one of the texts: “Your Wallet,” the balance, or the percentage
 * [-1] AnimatedContent does not swap out the percentage text whenever a stock is bought.
-* [-1] Text is not green / red when positive or negative.
+* [-1] Text is not green/red when positive or negative.
 * [-1] WalletRow() not called on MainScreen()
 * [-1] Balance displayed is not accurate
 
 
 TickerRow.kt (4pts)
 * [-1] (-1 per offense) Missing a UI element: stock title, stock balance, stock percentage
-* [-1] Neither the percentage OR balance text animate out whenever the stock price changes
+* [-1] Neither the percentage NOR the balance text animates out whenever the stock price changes
 * [-1] Balance or percentage displayed is not accurate
-* [-1] Text is not green / red when positive or negative
+* [-1] Text is not green/red when positive or negative
 * [-2] Tapping does not navigate to the stock detail screen
 * [-2] Missing from MainScreen()
 * [-1] Does not show all the available tickers in the app (APPL, MSFT, GOOG, etc.)
@@ -167,18 +170,20 @@ StockDetailScreen.kt (5pts)
 * [-2] Screen color does not change whatsoever.
 * [-1] Screen color does not change smoothly (changes instantly).
 * [-1] Pressing buy/sell a stock does not do anything.
-* [-1] Information about the SPECIFIC stock pressed on the TickerRow is not shown / given to the screen.
+* [-1] Information about the SPECIFIC stock pressed on the TickerRow is not shown/given to the screen.
 ```
 
 ## A4
 
 ### Notes
-- this is a pretty easy assignment to grade--it's split in 5 parts that you can test just by running their app and looking in just one/two files.
+- This is a pretty easy assignment to grade--it's split into 5 parts that you can test just by running their app and looking in just one/two files.
 - The minimum grade someone is able to get for submitting from now on is 6pts (half credit). If they get more deductions than that, just still grade them for 6pts.
 - Make sure to look in the code that the students used the intended ViewModel logic to implement certain features, since there are ways to implement it without using MVVM (but this is reflected just in the deductions in the assignment, so just follow that.)
 
 ### Demo Video
-<video src="./a4-soln-demo.mp4" controls width="420"></video>
+
+https://github.com/user-attachments/assets/ba193c50-ce6f-4360-98af-2fc1bc98eb28
+
 
 ### Rubric
 
@@ -237,7 +242,7 @@ Sending a Message (2pts)
 
 
 Reading the Header Flow Information (3pts)
-* [-2] The name does not change from ??? to your typed in philosopher’s name after you give the philosopher a name (by chatting with it)
+* [-2] The name does not change from ??? to your typed-in philosopher’s name after you give the philosopher a name (by chatting with it)
 * [-1] Inaccurate timestamp.
 * [-1] Name not implemented using a .collect on botNameFlow.
 * [-1] Timestamp not implemented using a .collect on timestampFlow.
@@ -254,7 +259,8 @@ Reading the Currently Typing Flow (2pts)
 - none
 
 ### Demo Video
-<video src="./a5-demo.mov" controls width="420"></video>
+https://github.com/user-attachments/assets/52e65a5a-5d1a-4024-bdf8-d771adc0c75c
+
 
 ### Rubric
 
@@ -322,12 +328,13 @@ UI Integration (3pt)
 
 ### Notes
 - Grading A6 takes a blend of testing and looking at code: `HomeScreen`, `HomeViewModel`, `RatingScreen`, and `RatingViewModel`, although most of it is testing.
-- Please take a look at the demo solution video in thread to see how the app should behave first! The expected behavior is a bit unclear from the rubric, and students seem to be having trouble meeting the expectations.
-- This seems to be the hardest assignment of the course. Of the 4 students I graded, 0 full scores.
+- Please take a look at the demo solution video to see how the app should behave first! The expected behavior is a bit unclear from the rubric, and students seem to be having trouble meeting the expectations.
 - For the deduction: `* [-1] User does not automatically navigate 1 second after uploading a new image`. When you UPLOAD an image, 1 second later, you are supposed to automatically navigate to the rating screen for THAT image.
 
 ### Demo Video
-<video src="./a6-soln-demo.mp4" controls width="420"></video>
+https://github.com/user-attachments/assets/b44a32b3-6348-4b49-ae38-948d43df7d4b
+
+
 
 ### Rubric
 
