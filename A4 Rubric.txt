@@ -1,0 +1,61 @@
+﻿Grader: <TODO Your Name>, <TODO Your NetID>
+
+
+Total:             +12
+Deductions:   -TODO
+—----------------
+Final Score:        TODO
+
+
+[Remember to fill out the A4 feedback form for the final +1 pt!]
+
+
+——————
+
+
+Comments:
+
+
+<TODO: Add encouraging comments here! Point out some nice things about their implementation, and give constructive feedback in a few places if possible.>
+
+
+——————
+
+
+Deductions:
+
+
+<TODO: Apply the correct deductions, then DELETE THIS TEXT>
+
+
+General
+* [-6] App does not compile nor launch, even if the grader attempted to fix any local Gradle issues.
+
+
+Reading the Message Flow (2pts)
+* [-1] chatRepository not injected into the ChatViewModel
+* [-2] Messages not showing up correctly (”Hello! Am I alone here?”)
+
+
+Typing into the Text Field (3pts)
+* [-3] Cannot type into the text field.
+* [-1] Text Field implemented simply using a mutableStateOf() instead of using ViewModel up/down logic.
+
+
+Sending a Message (2pts)
+* [-2] Cannot send messages.
+* [-1] isSendEnabled not used to incur send message button enabling/disabling.
+* [-1] Typed message not cleared after send.
+* [-1] chatRepository’s .sendMessage() is not used.
+
+
+Reading the Header Flow Information (3pts)
+* [-2] The name does not change from ??? to your typed in philosopher’s name after you give the philosopher a name (by chatting with it)
+* [-1] Inaccurate timestamp.
+* [-1] Name not implemented using a .collect on botNameFlow.
+* [-1] Timestamp not implemented using a .collect on timestampFlow.
+
+
+Reading the Currently Typing Flow (2pts)
+* [-2] A “...” does not pop up while the bot is typing.
+* [-1] Not implemented using a .collect on currentlyTypingFlow.

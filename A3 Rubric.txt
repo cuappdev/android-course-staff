@@ -1,0 +1,61 @@
+﻿Grader: <TODO Your Name>, <TODO Your NetID>
+
+
+Total:             +12
+Deductions:   -TODO
+—----------------
+Final Score:        TODO
+
+
+[Remember to fill out the A3 feedback form for the final +1 pt!]
+
+
+——————
+
+
+Comments:
+
+
+<TODO: Add encouraging comments here! Point out some nice things about their implementation, and give constructive feedback in a few places if possible.>
+
+
+——————
+
+
+Deductions:
+
+
+<TODO: Apply the correct deductions, then DELETE THIS TEXT>
+
+
+General
+* [-6] App does not compile nor launch, even if the grader attempted to fix any local Gradle issues.
+* [-1] Implementation not separated into different files. Each of WalletRow.kt, TickerRow.kt, and StockDetailScreen.kt should be three separate files.
+
+
+WalletRow.kt (3pts)
+* [-1] (-1 per offense) Missing one of the texts: “Your Wallet,” the balance, or the percentage
+* [-1] AnimatedContent does not swap out the percentage text whenever a stock is bought.
+* [-1] Text is not green / red when positive or negative.
+* [-1] WalletRow() not called on MainScreen()
+* [-1] Balance displayed is not accurate
+
+
+TickerRow.kt (4pts)
+* [-1] (-1 per offense) Missing a UI element: stock title, stock balance, stock percentage
+* [-1] Neither the percentage OR balance text animate out whenever the stock price changes
+* [-1] Balance or percentage displayed is not accurate
+* [-1] Text is not green / red when positive or negative
+* [-2] Tapping does not navigate to the stock detail screen
+* [-2] Missing from MainScreen()
+* [-1] Does not show all the available tickers in the app (APPL, MSFT, GOOG, etc.)
+
+
+StockDetailScreen.kt (5pts)
+* [-1] (-1 per offense) Missing a UI element: stock title, stock price, stock percentage, wallet row, amount owned, buy/sell buttons
+* [-2] Balance or percentage texts do not animate whatsoever.
+* [-1] Balance or percentage texts simply use an AnimatedContent transition instead of an animateFloatAsState transition.
+* [-2] Screen color does not change whatsoever.
+* [-1] Screen color does not change smoothly (changes instantly).
+* [-1] Pressing buy/sell a stock does not do anything.
+* [-1] Information about the SPECIFIC stock pressed on the TickerRow is not shown / given to the screen.

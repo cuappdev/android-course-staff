@@ -1,0 +1,62 @@
+﻿Grader: <TODO Your Name>, <TODO Your NetID>
+
+
+Total:             +12
+Deductions:   -TODO
+—----------------
+Final Score:        TODO
+
+
+[Remember to fill out the A6 feedback form for the final +1 pt!]
+
+
+——————
+
+
+Comments:
+
+
+<TODO: Add encouraging comments here! Point out some nice things about their implementation, and give constructive feedback in a few places if possible.>
+
+
+——————
+
+
+Deductions:
+
+
+<TODO: Apply the correct deductions, then DELETE THIS TEXT>
+
+
+General
+* [-6] App does not compile nor launch, even if the grader attempted to fix any local Gradle issues.
+
+
+Rendering Photos (2pts)
+* [-2] Cat test photos (and other photos) do not show up.
+* [-1] Cat test photo hardcoded; uploading photos (if implemented) does not render new photos.
+
+
+Uploading Photos (2pts)
+* [-2] Not implemented; clicking the upload photo card does not launch the photo picker.
+* [-1] Not implemented with UIEvent (`pickMedia.launch` called directly)
+
+
+Navigation (3pts)
+* [-3] Cannot navigate at all to the Rating Screen.
+* [-2] Clicking on an image does not navigate to the screen.
+* [-1] Clicking on a particular image does not send the correct image ID through the navigation arguments.
+* [-1] User does not automatically navigate 1 second after uploading a new image.
+
+
+Rating Nav Args (3pts)
+* [-1] No logic exists to load the image, such as photoRatingRepository.getImageFromId().
+* [-1] No UIState field for image bitmap or other flow connecting the image bitmap to the UI.
+* [-1] UI does not render the image given to it by the VM.
+* [-1] See my Rating! button does not only become enabled when the image loads (should be greyed out until image loads)
+
+
+Show the Ratings! (2pts)
+* [-2] 5 ratings not displayed at all.
+* [-1] Some ratings are missing.
+* [-1] No animation exists at all for displaying the ratings. (lenient deduction)

@@ -1,0 +1,55 @@
+﻿Grader: <TODO Your Name>, <TODO Your NetID>
+
+
+Total:             +12
+Deductions:   -TODO
+—----------------
+Final Score:        TODO
+
+
+[Remember to fill out the A5 feedback form for the final +1 pt!]
+
+
+——————
+
+
+Comments:
+
+
+<TODO: Add encouraging comments here! Point out some nice things about their implementation, and give constructive feedback in a few places if possible.>
+
+
+——————
+
+
+Deductions:
+
+
+<TODO: Apply the correct deductions, then DELETE THIS TEXT>
+
+
+General
+* [-6] App does not compile nor launch, even if the grader attempted to fix any local Gradle issues.
+
+
+Network & Data Layer Setup (5pt)
+* [-1] Missing necessary fields, incorrect data types, missing/incorrect @Serializable or @SerializedName annotations for Kotlin serialization in Product.kt
+* [-1] Missing/incorrect @GET annotations, wrong paths/endpoints, missing/incorrect @Query for search, incorrect return types in ProductApiService.kt
+* [-1] OkHttpClient Provider: missing or incomplete
+* [-1] Retrofit Provider: Incorrect base URL, missing necessary converters (e.g., JSON).
+* [-1] API Service instance not provided in the NetworkModule and/or not injected into the ProductRepository.
+
+
+Repository & ViewModel Logic (4pt)
+* [-1] ProductRepository: getAllProducts: Correctly calls API, uses Result<T> wrapper (or equivalent) for return type.
+* [-1] ProductRepository: searchProducts: Correctly calls API with query parameter, uses Result<T> wrapper.
+* [-0.5] ViewModel: Repository not injected or Any is not replaced with Product in UiState
+* [-0.5] ViewModel: loadProducts and/or searchProducts not launched in viewModelScope
+* [-0.5] ViewModel: In loadProducts and/or searchProducts, isLoading is not set to true before calling repository function and/or not set to false when the result is obtained
+* [-0.5] ViewModel: In loadProducts and/or searchProducts, the products uiState field is not updated correctly
+
+
+UI Integration (3pt)
+[-1] Not collecting uiState and searchQuery from ViewModel
+[-1] Not using LazyColumn and ProductCard correctly to display products
+[-1] Not calling ProductScreenContent in ProductScreen or not passing in the parameters correctly

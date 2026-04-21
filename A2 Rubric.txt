@@ -1,0 +1,60 @@
+﻿Grader: <TODO Your Name>, <TODO Your NetID>
+
+
+Total:             +12
+Deductions:   -TODO
+—----------------
+Final Score:        TODO
+
+
+[Remember to fill out the A2 feedback form for the final +1 pt!]
+
+
+——————
+
+
+Comments:
+
+
+<TODO: Add encouraging comments here! Point out some nice things about their implementation, and give constructive feedback in a few places if possible.>
+
+
+——————
+
+
+Deductions:
+
+
+<TODO: Apply the correct deductions, then DELETE THIS TEXT>
+
+
+General
+* [-6] App does not compile nor launch, even if the grader attempted to fix any local Gradle issues.
+* [-1] Implementation not separated into different files. Each of ExpenseRow.kt, ExpenseHeader.kt, and MainScreen.kt should be implemented in their own files.
+
+
+ExpenseRow.kt (3pts)
+* [-3] Missing.
+* [-1] Missing Title text. 
+* [-1] Missing Date text.
+* [-1] Missing Amount text.
+* [-1] Amount text exists, but is not colored green if positive, red if negative. (OR) is not bolded.
+
+
+ExpenseHeader.kt (4pts)
+* [-4] Missing.
+* [-1] Missing the Expense Name TextField.
+* [-1] Missing the Expense Cost TextField.
+* [-2/-1] Cannot type into text field(s).
+* [-1] Missing title text.
+* [-1] Missing button.
+* [-2] No onClick functionality implemented.
+* [-0.5] Previous text still persists even after onClick is fired. 
+* [-0.5] Missing placeholder texts in one of the text fields.
+
+
+MainScreen.kt (5pts)
+* [-5] Missing.
+* [-2] No LazyColumn used in implementation.
+* [-1] Screen content not shown in real app launch (only in @Preview functions).
+* [-1] System time of each grocery entry creation not shown in any way. (flexible deduction).
