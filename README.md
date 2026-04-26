@@ -24,9 +24,8 @@
 - Watch the attached video for what the A2 soln should look like!
 
 ### Demo Video
-https://github.com/user-attachments/assets/0248cae2-d378-4435-b073-a1de0766a3f8
 
-
+https://github.com/user-attachments/assets/5bb46749-ebce-4548-bfd4-5a0f83d107e9
 
 ### Rubric
 
@@ -102,6 +101,7 @@ MainScreen.kt (5pts)
 - We don't expect anyone to have trouble not launching their app actually through `MainActivity.kt` this time around.
 
 ### Demo Video
+
 https://github.com/user-attachments/assets/c182db25-001c-4a69-9b89-d06facb49d3f
 
 
@@ -259,6 +259,7 @@ Reading the Currently Typing Flow (2pts)
 - none
 
 ### Demo Video
+
 https://github.com/user-attachments/assets/52e65a5a-5d1a-4024-bdf8-d771adc0c75c
 
 
@@ -332,6 +333,7 @@ UI Integration (3pt)
 - For the deduction: `* [-1] User does not automatically navigate 1 second after uploading a new image`. When you UPLOAD an image, 1 second later, you are supposed to automatically navigate to the rating screen for THAT image.
 
 ### Demo Video
+
 https://github.com/user-attachments/assets/b44a32b3-6348-4b49-ae38-948d43df7d4b
 
 
