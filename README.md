@@ -102,8 +102,7 @@ MainScreen.kt (5pts)
 
 ### Demo Video
 
-https://github.com/user-attachments/assets/c182db25-001c-4a69-9b89-d06facb49d3f
-
+https://github.com/user-attachments/assets/ec3167d0-38e5-4971-af8b-6a770671764c
 
 ### Rubric
 
@@ -182,8 +181,7 @@ StockDetailScreen.kt (5pts)
 
 ### Demo Video
 
-https://github.com/user-attachments/assets/ba193c50-ce6f-4360-98af-2fc1bc98eb28
-
+https://github.com/user-attachments/assets/6226bb29-ff8d-4467-922b-d7eeae74d8d0
 
 ### Rubric
 
@@ -260,8 +258,7 @@ Reading the Currently Typing Flow (2pts)
 
 ### Demo Video
 
-https://github.com/user-attachments/assets/52e65a5a-5d1a-4024-bdf8-d771adc0c75c
-
+https://github.com/user-attachments/assets/09635265-4222-475c-9464-2465fc46c579
 
 ### Rubric
 
@@ -334,9 +331,7 @@ UI Integration (3pt)
 
 ### Demo Video
 
-https://github.com/user-attachments/assets/b44a32b3-6348-4b49-ae38-948d43df7d4b
-
-
+https://github.com/user-attachments/assets/f365039d-60a9-40dc-aee4-dec4c6df4836
 
 ### Rubric
 
